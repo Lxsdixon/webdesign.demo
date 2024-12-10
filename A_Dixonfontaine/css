@@ -1,0 +1,75 @@
+#bio {
+    padding: 2rem;
+    background-color: #f9f9f9; /* Light background for contrast */
+    text-align: center; /* Center-align for better readability */
+}
+
+.bio-photo img {
+    max-width: 150px; /* Adjust image size */
+    border-radius: 50%; /* Circle-shaped photo */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 1rem;
+}
+
+#bio h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#bio p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0.5rem 0;
+    color: #333; /* Dark gray text for readability */
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 24px;
+}
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header ul li {
+    margin: 0 10px;
+}
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+    header ul {
+        flex-direction: column;
+    }
+}

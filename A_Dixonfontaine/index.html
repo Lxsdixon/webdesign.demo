@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        /* Import Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+        /* Reset default margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: tan; /* Tan background */
+        }
+
+        header {
+            border-bottom: 2px solid #007bff; /* Blue border under header */
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Center navigation items */
+        }
+
+        nav ul li {
+            margin: 0 10px; /* Reduce spacing between navigation items */
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        section {
+            border: 2px solid #ddd; /* Light gray border around sections */
+            border-radius: 10px; /* Rounded corners */
+            padding: 15px; /* Adjust padding for less space inside */
+            margin: 10px auto; /* Reduced margin between sections */
+            width: 90%; /* Restrict width for better readability */
+            max-width: 800px; /* Limit maximum width */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        h1, h2 {
+            text-align: center;
+            font-weight: bold; /* Bold headings */
+            margin-bottom: 10px; /* Reduce space below headings */
+            font-family: 'Roboto', sans-serif; /* Modern font for headings */
+        }
+
+        h2::before, h2::after {
+            content: "";
+            display: block;
+            width: 50px;
+            height: 2px;
+            background: #333; /* Decorative line */
+            margin: 10px auto;
+        }
+
+        p, ul {
+            font-family: 'Roboto', sans-serif; /* Modern font for paragraphs and bullet points */
+            font-size: 14pt; /* Adjust font size for readability */
+            margin: 10px 0; /* Adjust spacing for paragraphs and lists */
+            line-height: 1.6; /* Improve readability with line spacing */
+        }
+
+        ul {
+            padding-left: 20px; /* Add padding for bullet points */
+            list-style-type: disc; /* Use disc bullet points */
+        }
+
+        .bio-photo img {
+            border: 5px solid #555; /* Dark gray border around image */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            display: block;
+            margin: 10px auto; /* Center the image */
+        }
+
+        footer {
+            border-top: 2px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        hr {
+            border: 1px solid #ccc; /* Horizontal line style */
+            margin: 20px 0;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+   <!-- Header -->
+<header>
+    <div class="logo">
+        <img src="Black and White Minimalist Professional Initial Logo.png" alt="Logo" />
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<style>
+    /* Header Styling */
+    header {
+        display: flex;
+        flex-direction: column; /* Stack logo and navigation vertically */
+        align-items: center; /* Center items horizontally */
+        justify-content: center; /* Center items vertically */
+        padding: 20px;
+        border-bottom: 2px solid #007bff; /* Blue border under header */
+    }
+
+    .logo img {
+        max-width: 100px; /* Adjust logo size */
+        height: auto;
+        margin-bottom: 10px; /* Add space below logo */
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center; /* Center navigation items */
+    }
+
+    nav ul li {
+        margin: 0 10px; /* Add spacing between navigation links */
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+</style>
+
+
+    <!-- Main Content -->
+    <main>
+        <!-- Welcome Section -->
+        <section id="welcome">
+            <h1>Welcome!! </h1>
+            <p>Thank you for visiting. This site highlights facts about me, skills, and professional interests. Feel free to explore and reach out through the contact section if you'd like to connect or collaborate.
+            </p>
+        </section>
+
+        <!-- Bio Section -->
+        <section id="bio">
+            <h2>About Me</h2>
+            <div class="bio-photo">
+                <img src="Professional Photo.jpg" style="width: 275px; height: 350px;" alt="A professional photo of Alexis Dixon Fontaine" />
+            </div>
+            <article>
+                <p>
+                    What's up everybody, my name is Alexis Dixon Fontaine, but everyone who knows me calls me L S. I transferred to FAMU after getting an AA in Electrical Engineering at Miami Dade College. I'm currently pursuing a B.S. in Information Technology and am in my junior year.
+                </p>
+                <p>
+                    When I'm not engaging in physical activities, I focus my dedication on music and content creation. I'm interested in web design, which is why I decided to take this course and the potential professional opportunities having this knowledge would bring.
+                </p>
+            </article>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Seasoned Technical Support Engineer with over 8 years of experience helping clients maintain smooth operations. Expertise includes:</p>
+            <ul>
+                <li>Proficient in macOS, iOS, Windows, and Linux systems</li>
+                <li>Strong troubleshooting and technical support skills</li>
+                <li>Programming knowledge in C#, Java, and Swift</li>
+                <li>Experience in system maintenance and optimization</li>
+                <li>Excellent communication and client support abilities</li>
+            </ul>
+        </section>
+
+        <!-- Portfolio Section -->
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-container">
+        <!-- Education Section -->
+        <div class="portfolio-section">
+            <h3>Education</h3>
+            <hr>
+            <ul>
+                <li>
+                    <strong>AA in Electrical Engineering - Miami Dade College</strong>
+                    <ul>
+                        <li>Focused on circuit design and analysis</li>
+                        <li>Hands-on experience with electrical systems</li>
+                        <li>Completed foundational courses in engineering principles</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>BS in Information Technology - Florida A&M University</strong>
+                    <ul>
+                        <li>Specializing in system administration and networking</li>
+                        <li>Developing skills in cybersecurity and software development</li>
+                        <li>Collaborated on group IT projects and case studies</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Professional Experience Section -->
+        <div class="portfolio-section">
+            <h3>Professional Experience</h3>
+            <hr>
+            <ul>
+                <li>
+                    <strong>Current Employer:</strong> Sony Pictures Entertainment  
+                    <br><strong>Position:</strong> Desktop Support Analyst
+                </li>
+                <li>
+                    <strong>Previous Employer:</strong> Apple Inc.  
+                    <br><strong>Position:</strong> iOS and macOS Technician
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<style>
+    #portfolio {
+        padding: 20px;
+        font-family: Arial, sans-serif;
+    }
+
+    .portfolio-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .portfolio-section {
+        border: 1px solid #ccc;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+    hr {
+        margin: 10px 0;
+        border: 0;
+        border-top: 1px solid #ddd;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    ul li {
+        margin: 10px 0;
+    }
+
+    ul ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+</style>
+
+
+       <!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    
+    <div class="contact-info">
+        <p>Email: <a href="mailto:Alexis1.dixonfontain@famu.edu">Alexis1.dixonfontain@famu.edu</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/alexisdixonfontaine/" target="_blank">Visit my LinkedIn Profile</a></p>
+    </div>
+
+   <!-- Contact Form -->
+<div class="contact-form">
+    <h3>Send a Message</h3>
+    <form action="submit_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Write your message here"></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<style>
+    /* Form Container */
+    .contact-form {
+        margin: 20px auto;
+        max-width: 400px; /* Smaller form width */
+        padding: 15px; /* Adjusted padding */
+        background-color: #000; /* Black background */
+        border: 1px solid #444; /* Subtle border */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow for depth */
+    }
+
+    .contact-form h3 {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: #fff; /* White text */
+        margin-bottom: 20px;
+        font-size: 20px;
+        border-bottom: 2px solid #007bff; /* Blue underline */
+        padding-bottom: 10px;
+    }
+
+    /* Input and Textarea Styles */
+    .contact-form label {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff; /* White labels */
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 8px; /* Smaller padding */
+        margin-bottom: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        color: #fff; /* White text inside inputs */
+        border: 1px solid #444; /* Subtle border */
+        border-radius: 5px;
+        background-color: #333; /* Darker background for inputs */
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.7);
+        transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+        border-color: #007bff; /* Blue focus border */
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        outline: none;
+    }
+
+    /* Submit Button */
+    .contact-form button {
+        width: 100%;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #fff; /* White button text */
+        background-color: #007bff; /* Blue button background */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .contact-form button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .contact-form {
+            padding: 10px;
+        }
+
+        .contact-form h3 {
+            font-size: 18px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            font-size: 12px;
+        }
+    }
+</style>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Alexis Dixon Fontaine. All rights reserved.</p>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/alexisdixonfontaine/" target="_blank">LinkedIn</a>.</p>
+    </footer>
+</body>
+</html>
